@@ -13,7 +13,7 @@ class DocumentClassifyManager(BaseModel):
     example_docs: list[dict]
 
 
-@app.post("/classify/")
+@app.post("/vi/route")
 def classify_docs(manager: DocumentClassifyManager) -> str:
     """
     Classifies documents using the specified classify model.

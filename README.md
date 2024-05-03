@@ -16,3 +16,9 @@ pip install -r requirements.txt
 ```
 ./main.bat
 ```
+
+## Use
+
+```
+http://localhost:7943/v1/route
+```
